@@ -94,6 +94,7 @@ library Errors {
   string public constant UL_INVALID_INDEX = '77';
   string public constant MP_NOT_CONTRACT = '78';
   string public constant SDT_BURN_EXCEEDS_BALANCE = '80';
+  string public constant OB_CALLER_NOT_ORDER_BOOK = '81'; // 'The caller of the function is not the order book contract'
 
   enum CollateralManagerErrors {
     NO_ERROR,
